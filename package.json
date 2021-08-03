@@ -1,0 +1,27 @@
+{
+  "name": "ncode",
+  "version": "1.0.0",
+  "main": "file.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^5.12.10",
+    "morgan": "^1.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anu0786/blogs-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Anu0786/blogs-node/issues"
+  },
+  "homepage": "https://github.com/Anu0786/blogs-node#readme",
+  "description": ""
+}
