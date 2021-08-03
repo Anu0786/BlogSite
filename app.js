@@ -7,7 +7,7 @@ const app= express();
 
 const dbURI = 'mongodb+srv://netninja:test1234@shadedsoul.1tg30.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'; 
 mongoose.connect(dbURI, { useNewUrlParser: true , useUnifiedTopology: true }) 
-    .then((result) => app.listen(8080))
+    .then((result) => app.listen(process.env.PORT || 8080))
     .catch((err) => console.log(err));
 
 
